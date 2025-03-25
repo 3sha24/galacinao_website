@@ -1,0 +1,173 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.8;
+}
+
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+    color: #564148;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    scroll-margin-top: 80px; /* Ensures the h2 is not hidden behind the sticky nav */
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    text-align: justify;
+}
+
+a {
+    color: #564148;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #564148;
+    padding: 1rem;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    font-size: 1.1rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Content Container */
+.content {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1.5rem;
+}
+
+/* Section Styling */
+.section {
+    margin-bottom: 3rem;
+}
+
+.section p {
+    margin-left: 1rem;
+}
+
+/* Go-to-Top Button */
+.go-top-container {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.go-top {
+    background-color: #564148;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.go-top:hover {
+    background-color: #3a2d32;
+    text-decoration: none;
+}
+
+/* Footer */
+footer {
+    background-color: #564148;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 3rem;
+}
+
+footer a {
+    color: white;
+    font-weight: 400;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Section Navigation */
+.section-nav {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.section-nav a {
+    margin: 0 10px;
+    font-size: 1.1rem;
+    color: #564148;
+    padding: 0.5rem 1rem;
+    border: 2px solid #564148;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.section-nav a:hover {
+    background-color: #564148;
+    color: white;
+}
+
+/* Image Styling */
+.image-container {
+    display: flex;
+    flex-wrap: nowrap; /* Prevent wrapping */
+    gap: 1rem;
+    margin: 2rem 0;
+    overflow-x: auto; /* Add horizontal scroll if necessary */
+}
+
+.image-container img {
+    width: auto; /* Adjust width to fit content */
+    max-width: 200px;
+    height: auto;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.image-container img:hover {
+    transform: scale(1.05);
+}
+
+.image-container figcaption {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #564148;
+    margin-top: 0.5rem;
+}
