@@ -1,7 +1,8 @@
 /* General Styles */
 body {
-    background: linear-gradient(to right, #F5896C, #91B698);
-    color: #3A2E31;
+   font-family: 'Poppins', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
     margin: 0;
     padding: 0;
     line-height: 1.8;
